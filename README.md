@@ -1,9 +1,12 @@
-non_otp
-=====
+# non_otp
 
-An OTP library
+This repo lists more than 20 top Hex.pm Erlang libraries as Rebar3 dependencies.
+It's useful for testing various code manipulation tools on popular community projects.
 
-Build
------
+Applications so far:
 
-    $ rebar3 compile
+- [Testing EDoc EEP-48 doc chunk generation for Erlang/OTP 24][edoc-eep48]
+- Testing [Gradualizer](https://github.com/josefs/Gradualizer) - check out
+  the [`gradualizer` branch](https://github.com/erszcz/non-otp-libraries/tree/gradualizer)
+
+[edoc-eep48]: https://gist.github.com/erszcz/69a63c8fe2162ab8f6569787639dcf0e
